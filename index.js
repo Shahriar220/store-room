@@ -33,7 +33,7 @@ app.use(passport.session());
 
 require('./routes/authRoutes')(app);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`listening to ${PORT}`));
 
 //app installation //mongodb+srv://shahriar:<password>@api.9qfo6.mongodb.net/<dbname>?retryWrites=true&w=majority
